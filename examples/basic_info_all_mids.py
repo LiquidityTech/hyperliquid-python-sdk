@@ -18,7 +18,7 @@ def main():
         skip_ws=True
     )
 
-    response = info.all_mids()
+    response = info.all_mids(dex="xyz")
     print(response)
 
 if __name__ == "__main__":

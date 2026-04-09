@@ -26,7 +26,7 @@ def main():
         skip_ws=True
     )
 
-    response = info.user_state(address)
+    response = info.user_state(address, dex="xyz")
     print(response)
 
 if __name__ == "__main__":
